@@ -6,5 +6,8 @@ header {
     color: white; 
     padding: 70px;
     text-align: center;
-    background-image: url(https://blog.climatefieldview.com.br/hs-fs/hubfs/IOT%20na%20agricultura-3.jpg?width=728&name=IOT%20na%20agricultura-3.jpg);
+    background-image: url(https://blog.climatefieldview.com.br/hs-fs/hubfs/IOT%20na%20agricultura-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
