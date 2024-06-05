@@ -11,3 +11,16 @@ header {
     background-size: cover;
     background-position: center;
 }
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+.texto {
+    flex: 1;
+    padding: 20px;
+}
+.foto1 {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+}
