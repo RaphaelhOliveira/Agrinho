@@ -15,23 +15,18 @@ header {
     background-position: center;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-}
-
 .texto {
     flex: 1;
     padding: 20px;
-    margin-top: 50px;
+
 }
 
 .foto1 {
-    width: 500px;
-    float: left;
-    margin-right: 20px;
-    height: 400px;
-    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 850px;
 }
 
 
@@ -40,4 +35,19 @@ header {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+.content {
+    display: flex;
+
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.xandola{
+    background-color:green;
+    height: 100px;
 }
