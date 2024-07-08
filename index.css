@@ -1,60 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,500&display=swap');
 
 body {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 header {
-    background-color: green; 
-    color: white; 
-    padding: 50px;
+    background-color: green;
+    color: white;
+    padding: 20px;
     text-align: center;
-    background-image: url(https://blog.climatefieldview.com.br/hs-fs/hubfs/IOT%20na%20agricultura-3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .texto {
-    flex: 1;
     padding: 20px;
-
 }
-
-.foto1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-    width: 850px;
-}
-
 
 .fonte {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+    text-align: center;
 }
 
 .content {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 h1 {
     font-size: 50px;
     text-align: center;
 }
 
-
-.sec2{
-    background-color:rgb(63, 243, 63);
-    height: 100px;
-}
-.txpt2 {
-    font-size: 40px;
-}
-.sec3{
+.sec2, .sec3 {
     background-color: rgb(63, 243, 63);
     height: 100px;
+}
+
+.txpt2 {
+    font-size: 40px;
+    margin: 25px auto;
+}
+
+.quadros {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quadro {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-color: #119600;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.quadro img {
+    width: 250px;
+    height: 200px;
+}
+
+/* Estilos específicos para a imagem principal */
+.foto1 {
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    width: 700px;
 }
