@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="sobre.css">
+</head>
+<body>
+    <header>
+        <img class="logo1" src="Inova-o-Agr-cola-12-06-2024.png" alt="Inovação">
+    </header>
+    <div class="fonte"> 
+        <h1>Sobre Nós</h1>
+            
+        <h2>Na AgroInovação, estamos na vanguarda da revolução agrícola. Nosso compromisso é impulsionar a agricultura rumo ao futuro, integrando tecnologia e inovação em cada etapa do processo agrícola. Acreditamos que a chave para enfrentar os desafios da produção de alimentos está na adoção de práticas mais inteligentes e eficientes.</h2>
+
+        <h2>Nossa equipe é formada por especialistas apaixonados pela agricultura e pelas possibilidades que a tecnologia oferece. Trabalhamos incansavelmente para descobrir e compartilhar as mais recentes inovações que estão transformando o setor agrícola em todo o mundo.</h2>
+            
+        <h2>Na AgroInovação, acreditamos no poder da colaboração e na importância de construir uma comunidade conectada de agricultores, pesquisadores e empreendedores. Juntos, estamos moldando o futuro da agricultura, tornando-a mais sustentável, produtiva e resiliente.</h2>
+            
+        <h2>Junte-se a nós nessa jornada emocionante rumo a uma agricultura mais inteligente, mais sustentável e mais inovadora.</h2>  
+        
+    </div>
+    <img class="foto1" src="https://mittechreview.com.br/wp-content/uploads/2022/06/trbr_artigo_banner1_090622-1.jpg" alt="plana"> 
+    <footer>
+        <li>Agrinho 2024</li>
+        <li>Aluno</li>
+        <li>Desenvolvido por Raphael</li>
+    </footer>
+</body>
+</html>
