@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="Inova-o-Agr-cola-12-06-2024.png" alt="Logo Inovação Agrícola">
+        <img class="logo1" src="Inova-o-Agr-cola-12-06-2024.png" alt="Logo Inovação Agrícola">
     </header>
 
     <section class="content">
@@ -42,10 +42,32 @@
             <img src="imagem4.png.jpg" alt="Tecnologia">
             <p>Tecnologia e Práticas Inovadoras</p>
         </div>
-        <div class="quadro" onclick="location.href='estudos.html';">
+        <div class="quadro" onclick="location.href='site4.html';">
             <img src="imagem5.png.jpg" alt="Estudos de Casos">
             <p>Estudos de Casos</p>
         </div>
     </div>
+    <section class="sec4"></section>
+
+    <div class="container">
+        <h2>Contato</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <li>Agrinho 2024</li>
+        <li>Aluno</li>
+        <li>Desenvolvido por Raphael</li>
+    </footer>
 </body>
 </html>
