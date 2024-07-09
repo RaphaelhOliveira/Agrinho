@@ -8,9 +8,12 @@ body {
 
 header {
     background-color: green;
-    color: white;
     padding: 20px;
     text-align: center;
+}
+.logo1 {
+    width: 300px;
+    max-width: 1000px;
 }
 
 .texto {
@@ -36,7 +39,7 @@ h1 {
     text-align: center;
 }
 
-.sec2, .sec3 {
+.sec2, .sec3, .sec4 {
     background-color: rgb(63, 243, 63);
     height: 100px;
 }
@@ -67,10 +70,90 @@ h1 {
     height: 200px;
 }
 
-/* Estilos específicos para a imagem principal */
+
 .foto1 {
     display: block;
     margin: 0 auto;
     height: 400px;
     width: 700px;
+    max-height: 1000px;
+    max-width: 1000px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #07881c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container h2 {
+    text-align: center;
+    color: #000000;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: dimgray;
+    color: wheat;
+    padding: 50px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 15px; 
+    }
+
+    .foto1 {
+        max-width: 100%;
+        max-height: 100%; 
+    }
+
+    footer {
+        padding: 20px; 
+    }
+    .logo1 {
+        max-width: 100%;
+    }
 }
